@@ -1,0 +1,47 @@
+.garage-door-options-contianer{
+    width: 100vw;
+}
+.garage-door-card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.garage-door-card{
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    border-radius: 5px;
+    margin: 20px;
+    padding: 20px;
+    transition: 0.3s ease;
+}
+
+.garage-door-card img {
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+}
+
+.garage-door-card:hover {
+    background-color: rgba(0, 0, 0, 0.432);
+}
+
+.garage-door-card h2 {
+    font-size: 1em;
+    text-align: center;
+}
+
+.garage-door-card .starter-price {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+.garage-door-card .starter-price div{
+    margin: 10px 0;
+    padding: 5px 10px;
+    font-size: 20px;
+}
+
+.garage-door-card .starter-price div span {
+    font-weight: bold;
+}
